@@ -67,7 +67,7 @@ nav{
 }
 
 .banner-food{
-    background-image: url(/img/bannerHome.jpg);
+    background-image: url(/img/fondo_comida.jpg);
 }
 
 .banner-drink{
@@ -289,6 +289,8 @@ footer{
     width: 300px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-menu__menu-information{
