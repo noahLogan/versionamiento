@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
     <title>Nourriture Delicieuse</title>
+  
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+      <script type="module" src="mapa.js"></script>
+ 
 </head>
 <body>
     <div class="fixed">
@@ -19,11 +24,14 @@
             <a href="menu-food.html" class="nav-item">Menú Platillos</a>
             <a href="menu-drinks.html" class="nav-item">Menú Bebidas</a>
             <a href="#" class="nav-item">Reseñas</a>
-            <a href="#" class="nav-item">Mapa</a>
+            <li class ="nav-item">
+                <a class="nav-link" href="#Mapa">Mapa</a>
+            </li>
             <a href="us.html" class="nav-item">Sobre Nosotros</a>
         </nav>
     </div>
-        
+    <br>   
+    <br>
     <div class="banner-home"></div>
 
     <h2>Menús</h2>
@@ -43,7 +51,6 @@
             </button>
         </div>
     </div>
-    
     <div class="reviews-container">
         <h2>Reseñas</h2>
         <!--Carrusel de reseñas-->
@@ -72,17 +79,23 @@
                 <img src="icons/stop.svg" alt="stop">
             </button>
         </div>
-    </div>
 
-    <h2>Encuéntranos en el Mapa ;)</h2>
-    <div class="map-container">
+    </div>
+   
+<h2 >Encuéntranos en el Mapa</h2>
+ <div id="Mapa"></div> 
+    <div class="map-container" >
         <!--Mapa-->
         <center>
-            <h4>Aquí pon el Mapa Antonio</h4>
-            <!-- que tenga el width del 100%, y height de 400 o 500px pa' que se vea bonito-->
-        </center>
+           
+            <div id="map"></div>
+            <script src="mapa.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        
+        
     </div>
-
+    <br>   
+    <br>
     <h2>Sobre Nosotros</h2>
     <center>
         <a href="us.html" class="about-us-container">
@@ -106,7 +119,9 @@
                 <a href="menu-food.html" class="nav-item">Menú Platillos</a>
                 <a href="menu-drinks.html" class="nav-item">Menú Bebidas</a>
                 <a href="#" class="nav-item">Reseñas</a>
-                <a href="#" class="nav-item">Mapa</a>
+                <li class ="nav-item">
+                    <a class="nav-link" href="#Mapa">Mapa</a>
+                </li>
                 <a href="us.html" class="nav-item">Sobre Nosotros</a>
             </div>
             <div class="footer-contact w-50">
