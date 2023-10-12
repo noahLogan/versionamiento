@@ -2,13 +2,10 @@
 window.onload = function () {
     // Variables
     const IMAGENES = [
-        'img/food1.jpg',
-        'img/food2.jpg',
-        'img/menu-drinks.jpg',
-        'img/menu-food.jpg',
-        'img/food1.jpg',
-        'img/food2.jpg',
-        'img/menu-drinks.jpg'
+        'img/1.png',
+        'img/2.png',
+        'img/3.png',
+        'img/4.png'
     ];
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
