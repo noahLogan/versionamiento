@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+El branch test_dos, es de prueba, será eliminado
+=======
+Este es un documento de prueba
+>>>>>>> 2b9ef331b845da6f8f704d9c419be257e65073ad
