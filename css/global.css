@@ -86,7 +86,7 @@ nav{
 }
 
 .banner-drink{
-    background-image: url(/img/bannerHome.jpg);
+    background-image: url(/img/prueba1.jpg);
 }
 
 .banner-us{
@@ -399,4 +399,69 @@ footer{
 
 .us-v-m__m, .us-v-m__v{
     padding: 500px 80px 60px 80px;
+}
+
+
+
+/* //////////////////////////////////////////// */
+.flex-column{
+    flex-direction: column;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 40px 20px;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-menu-items{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: 200;
+}
+
+.nav-menu-items:hover{
+    color: #D4AF37;
+}
+
+.nav-menu__title{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    color: #D4AF37;
+    padding: 0 0 20px 0;
+}
+
+.cards-container-menu--drinks{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px 30px;
+}
+
+.card-menu__menu-drinks{
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    padding: 30px;
+    text-align: center;
+}
+
+.price-drinks{
+    padding: 0 0 50px 0;
+}
+
+.card-menu__menu-img-drinks--border-r{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 60px 0 10px 0;
 }
