@@ -8,5 +8,4 @@ function iniciarMap(){
         position : coord,
         map:map
          });
-         
  }
