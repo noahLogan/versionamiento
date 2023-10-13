@@ -24,23 +24,30 @@
         </nav>
     </div>
         
-    <div class="banner banner-home"></div>
+    <div class="banner banner-home">
+        <p class="banner-home__phrase">"Deléitate con el sabor, <br>vive la experiencia gourmet."</p>
+    </div>
 
     <h2>Menús</h2>
     <div class="cards-container">
         <div class="card-menu">
-            <img src="img/menu-drinks.jpg" alt="Menú Bebidas" class="img-menu">
+            <img src="img/menu-food.jpg" alt="Menú Bebidas" class="img-menu">
             <h3 class="card-menu__h3">Menú Platillos</h3>
-            <button class="card-menu__button">
-                <a href="menu-food.html" class="card-menu__button-a">Ver más</a>
-            </button>
+            <a href="menu-food.html">
+                <button class="card-menu__button">
+                    <p class="card-menu__button-a">Ver más</p>
+                </button>
+            </a>
+            
         </div>
         <div class="card-menu">
-            <img src="img/menu-food.jpg" alt="Menú Bebidas" class="img-menu">
+            <img src="img/menu-drinks.jpg" alt="Menú Bebidas" class="img-menu">
             <h3 class="card-menu__h3">Menú Bebidas</h3>
-            <button class="card-menu__button">
-                <a href="menu-drinks.html" class="card-menu__button-a">Ver más</a>
-            </button>
+            <a href="menu-drinks.html">
+                <button class="card-menu__button">
+                    <p class="card-menu__button-a">Ver más</p>
+                </button>
+            </a>
         </div>
     </div>
     
@@ -85,10 +92,13 @@
         <a href="us.html" class="about-us-container">
             <div class="two-items w-50">
                 <img src="img/m.jpg" alt="Misión" class="img-v-m">
+                <div class="mision">Misión</div>
                 <img src="img/v.jpg" alt="Visión" class="img-v-m">
+                <div class="vision">Visión</div>
             </div>
             <div class="w-50">
                 <img src="img/h.jpg" alt="Historia" class="img-h">
+                <div class="historia">Historia</div>
             </div>
         </a>
     </center>
@@ -100,27 +110,39 @@
         </div>
         <div class="flex">
             <div class="footer-items w-50">
+                <h3>Enlaces</h3>
                 <a href="menu-food.html" class="footer-items__item">Menú Platillos</a>
                 <a href="menu-drinks.html" class="footer-items__item">Menú Bebidas</a>
                 <a href="us.html" class="footer-items__item">Sobre Nosotros</a>
             </div>
             <div class="footer-contact w-50">
-                <h3>Contáctanos</h3>
-                <div class="flex footer__menu-items">
-                    <img src="icons/email.svg" alt="">
-                    <p>Correo</p>
-                </div>
+                <h3>Redes Sociales</h3>
                 <div class="flex footer__menu-items">
                     <img src="icons/facebook.svg" alt="">
-                    <p>Facebook</p>
+                    <p class="footer-items__item">Facebook</p>
                 </div>
                 <div class="flex footer__menu-items">
                     <img src="icons/twitter.svg" alt="">
-                    <p>Twitter</p>
+                    <p class="footer-items__item">Twitter</p>
                 </div>
                 <div class="flex footer__menu-items">
                     <img src="icons/instagram.svg" alt="">
-                    <p>Instagram</p>
+                    <p class="footer-items__item">Instagram</p>
+                </div>
+            </div>
+            <div class="footer-contact w-50">
+                <h3>¡Contáctanos!</h3>
+                <div class="flex footer__menu-items">
+                    <img src="icons/email.svg" alt="">
+                    <p class="footer-items__item">nourrituredelicieuse@gmail.com</p>
+                </div>
+                <div class="flex footer__menu-items">
+                    <img src="icons/phone.svg" alt="">
+                    <p class="footer-items__item">33 1 40 56 23 44</p>
+                </div>
+                <div class="flex footer__menu-items">
+                    <img src="icons/map.svg" alt="">
+                    <p class="footer-items__item">15 Rue Lepic, 75018 París, Francia</p>
                 </div>
             </div>
         </div>
@@ -130,6 +152,3 @@
     <script src="functions.js"></script>
 </body>
 </html>
-
-
-/*imagen , nombre, precio, descripcion*/

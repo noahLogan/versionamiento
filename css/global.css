@@ -67,7 +67,7 @@ nav{
 }
 
 .banner-food{
-    background-image: url(/img/fondo_comida.jpg);
+    background-image: url(/img/bannerFood.jpg);
 }
 
 .banner-drink{
@@ -215,6 +215,32 @@ h2{
 .img-v-m{
     width: 100%;
     height: 300px;
+
+    position: relative;
+}
+
+.mision, .vision, .historia{
+    position: absolute;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 40px;
+    background: rgba(0, 0, 0, 0.836);
+}
+
+.mision{
+    left: 250px;
+    bottom: -2070px;
+}
+
+.vision{
+    left: 250px;
+    bottom: -2380px;
+}
+
+.historia{
+    right: 180px;
+    bottom: -2235px;
 }
 
 .img-h{
@@ -245,7 +271,7 @@ footer{
     color: #fff;
 }
 
-.footer-items__item, .footer__menu-items{
+.footer-items__item/*, .footer__menu-items*/{
     padding: 20px 0;
 }
 
@@ -278,10 +304,9 @@ footer{
 }
 
 .card-menu__menu{
-    /*border: 1px solid #000;*/
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
     width: 300px;
-    height: 450px;
+    height: 470px;
     border-radius: 30px;
 }
 
@@ -302,4 +327,29 @@ footer{
 
 .menu-information__price{
     font-family: 'Dancing Script';
+    color: #D4AF37;
+}
+
+
+/* ////////////////////////////////////////// */
+.banner-food__phrase, .banner-home__phrase{
+    font-size: 80px;
+    text-align: center;
+    padding: 300px 0 0 0;
+    color: #413201;
+    font-family: 'Dancing Script';
+}
+
+.banner-home__phrase{
+    color: #808080;
+}
+
+.back-a{
+    color: #D4AF37;
+    padding: 0 0 0 60px;
+}
+.back{
+    padding: 30px 60px 30px 0;
+    font-family: 'Dancing Script';
+    font-size: 20px;
 }
