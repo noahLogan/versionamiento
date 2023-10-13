@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #da1111;
+}
+/* Listado de las bebidas */
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el texto en el contenedor */
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color:#019baf;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 6px 0;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+img {
+    max-width: 250px;
+    max-height: 350px;
+    margin-right: 10px;
+}
+/* Estilos para el menú horizontal */
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.horizontal-menu li {
+    margin: 0;
+    padding: 10px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #019baf; /* Color de los enlaces */
+    font-weight: bold; /* Estilo de fuente negrita */
+}
+
+.horizontal-menu a:hover {
+    color: #FF5733; /* Color al pasar el ratón por encima */
+}
+/* Precios */
+.menu h3 {
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Estilo de fuente negrita */
+    margin-top: 10px; /* Margen superior para separar de la imagen */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos adicionales para personalizar los precios */
+.menu h3 span {
+    color: #FF5733; /* Color del precio */
+    font-size: 20px; /* Tamaño de fuente del precio */
+}
